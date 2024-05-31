@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Reddit Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Reddit Clone</h1>
+    </header>
+    <main>
+        <section id="create-community">
+            <h2>Create Community</h2>
+            <input type="text" id="community-name" placeholder="Community Name">
+            <button onclick="createCommunity()">Create</button>
+        </section>
+        <section id="create-post">
+            <h2>Create Post</h2>
+            <select id="community-select"></select>
+            <input type="text" id="post-title" placeholder="Post Title">
+            <textarea id="post-content" placeholder="Post Content"></textarea>
+            <button onclick="createPost()">Post</button>
+        </section>
+
+
